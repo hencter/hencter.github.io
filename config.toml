@@ -1,4 +1,4 @@
-baseURL = "."
+baseURL = "/"
 languageCode = "zh-CN"
 # 为保证文章字数统计才正常
 hasCJKLanguage = "true"
