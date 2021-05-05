@@ -1,0 +1,35 @@
+baseURL = "http://blog.hencter.top/"
+languageCode = "zh-CN"
+# 为保证文章字数统计才正常
+hasCJKLanguage = "true"
+title = "My New Hugo Site"
+
+copyright = "Copyright by 亦幸"
+
+[author]
+  name = "亦幸"
+  GitHubUser = "hencter"
+  Subtitle = "Hugo is Absurdly Fast!"
+
+[menu]
+
+[[menu.main]]
+    identifier = "index"
+    name = "INDEX"
+    title = "blog section"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "post"
+    name = "POST"
+    title = "post"
+    url = "/posts/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "about"
+    name = "ABOUT"
+    title = "post"
+    url = "/about/"
+    weight = 3
