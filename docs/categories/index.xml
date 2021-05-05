@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My New Hugo Site</title>
-    <link>./categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright by 亦幸</copyright>
-    <lastBuildDate>Tue, 07 Apr 2020 20:26:58 +0800</lastBuildDate><atom:link href="./categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Apr 2020 20:26:58 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>警惕</title>
-      <link>./categories/%E8%AD%A6%E6%83%95/</link>
+      <link>/categories/%E8%AD%A6%E6%83%95/</link>
       <pubDate>Tue, 07 Apr 2020 20:26:58 +0800</pubDate>
       
-      <guid>./categories/%E8%AD%A6%E6%83%95/</guid>
+      <guid>/categories/%E8%AD%A6%E6%83%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>错误</title>
-      <link>./categories/%E9%94%99%E8%AF%AF/</link>
+      <link>/categories/%E9%94%99%E8%AF%AF/</link>
       <pubDate>Tue, 07 Apr 2020 20:26:58 +0800</pubDate>
       
-      <guid>./categories/%E9%94%99%E8%AF%AF/</guid>
+      <guid>/categories/%E9%94%99%E8%AF%AF/</guid>
       <description></description>
     </item>
     
