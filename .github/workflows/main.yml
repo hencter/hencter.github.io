@@ -22,3 +22,16 @@ jobs:
 
       - name: Build
         run: hugo -D
+        
+      - name: Add & Commit
+        run: |
+          git add .
+          git config --local user.email "hencter@foxmail.com"
+          git config --local user.name "hencter"
+          git commit -m "Update"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
