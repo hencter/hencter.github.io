@@ -4,6 +4,8 @@ languageCode = "zh-CN"
 hasCJKLanguage = "true"
 title = "My New Hugo Site"
 
+publishDir = “docs”
+
 copyright = "Copyright by 亦幸"
 
 [author]
