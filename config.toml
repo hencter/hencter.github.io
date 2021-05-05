@@ -4,7 +4,7 @@ languageCode = "zh-CN"
 hasCJKLanguage = "true"
 title = "My New Hugo Site"
 
-publishDir = “docs”
+publishDir = "docs"
 
 copyright = "Copyright by 亦幸"
 
@@ -32,6 +32,6 @@ copyright = "Copyright by 亦幸"
 [[menu.main]]
     identifier = "about"
     name = "ABOUT"
-    title = "post"
+    title = "about"
     url = "/about/"
     weight = 3
