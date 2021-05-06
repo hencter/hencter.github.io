@@ -1,7 +1,4 @@
-{{ define "main" }}
-
-
-{{/* 文章内容 */}}
+{{ define "main" }} {{/* 文章内容 */}}
 <article>
     标题: {{ .Title }} <br>
     日期: {{ .Date.Format "Jan 2, Mon" }} <br>
@@ -10,22 +7,11 @@
     {{ .Content }}
 </article>
 
-{{/* 遍历标签 */}}
-Tags:
-{{ range (.GetTerms "tags") }}
-<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-{{ end }}
+{{/* 遍历标签 */}} Tags: {{ range (.GetTerms "tags") }}
+<a href="{{ .Permalink }}">{{ .LinkTitle }}</a> {{ end }}
 
 <p></p>
 
-{{/* 上一篇 */}}
-{{ with .PrevInSection }}
-<a class="previous" href="{{.Permalink}}">{{.Title}}</a>
-{{ end }}
-
-{{/* 下一篇 */}}
-{{ with .NextInSection }}
-<a class="next" href="{{.Permalink}}">{{.Title}}</a>
-{{ end }}
-
-{{ end }}
+{{/* 上一篇 */}} {{ with .PrevInSection }}
+<a class="previous" href="{{.Permalink}}">{{.Title}}</a> {{ end }} {{/* 下一篇 */}} {{ with .NextInSection }}
+<a class="next" href="{{.Permalink}}">{{.Title}}</a> {{ end }} {{ end }}
