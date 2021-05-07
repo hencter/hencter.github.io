@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文章 on 亦幸&#39;s Blog</title>
-    <link>/posts/</link>
+    <link>https://hencter.github.io/posts/</link>
     <description>Recent content in 文章 on 亦幸&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright by 亦幸</copyright>
-    <lastBuildDate>Tue, 07 Apr 2020 20:26:58 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Apr 2020 20:26:58 +0800</lastBuildDate><atom:link href="https://hencter.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一次惨痛的Linux全盘经历</title>
-      <link>/posts/2020-04-07-%E4%B8%80%E6%AC%A1%E6%83%A8%E7%97%9B%E7%9A%84linux%E5%85%A8%E7%9B%98%E7%BB%8F%E5%8E%86/</link>
+      <link>https://hencter.github.io/posts/2020-04-07-%E4%B8%80%E6%AC%A1%E6%83%A8%E7%97%9B%E7%9A%84linux%E5%85%A8%E7%9B%98%E7%BB%8F%E5%8E%86/</link>
       <pubDate>Tue, 07 Apr 2020 20:26:58 +0800</pubDate>
       
-      <guid>/posts/2020-04-07-%E4%B8%80%E6%AC%A1%E6%83%A8%E7%97%9B%E7%9A%84linux%E5%85%A8%E7%9B%98%E7%BB%8F%E5%8E%86/</guid>
+      <guid>https://hencter.github.io/posts/2020-04-07-%E4%B8%80%E6%AC%A1%E6%83%A8%E7%97%9B%E7%9A%84linux%E5%85%A8%E7%9B%98%E7%BB%8F%E5%8E%86/</guid>
       <description>事情发生2020年4月6日： 一次惨痛的 Linux 装机记录 - 装机日期为：2020年4月4日 OMG！那天在和耗子聊天的过程中康到 Linux-qq 更新了，我靠直接莽上去</description>
     </item>
     

@@ -1,8 +1,14 @@
 <head>
-    {{/* 这里是网站的 head 部分，引用 CSS 或者 JS 都应该在这里 */}}
+    {{/*  这里是网站的 head 部分，引用 CSS 或者 JS 都应该在这里 */}}
     <meta charset="UTF-8">
+    {{/*  此元标签是为了告诉浏览器应该将视口「viewport」宽度设定为设备的宽度  */}}
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {{/*  获取内容页标题和站点标题  */}}
     <title>{{ .Title }} |  {{ .Site.Title }}</title>
+    {{/*  站点图标  */}}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    {{/*  <link rel="stylesheet" href="/css/style.css">  */}}
+    {{/*  引用样式表，Hugo 生成的目录中位于 /static/css/style.css  */}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>

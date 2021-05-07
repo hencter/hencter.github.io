@@ -1,15 +1,13 @@
 {{ define "main" }}
-<main aria-role="main">
-    <header class="homepage-header">
+<main>
+    <header>
         {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span> {{ end }}
+            <span>{{.subtitle}}</span>
+        {{ end }}
     </header>
-    <div class="homepage-content">
-        {{/* 这里 Content 拉取的是 /content/_index.md 的内容 */}}
-        {{ .Content }}
-    </div>
-    <div>
-        {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} {{ end }}
-    </div>
+    {{/* 这里 Content 拉取的是 /content/_index.md 的内容 */}}
+    {{ .Content }}
+    {{/* 遍历 10 篇概要 */}}
+    {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} <br> {{ end }}
 </main>
 {{ end }}
