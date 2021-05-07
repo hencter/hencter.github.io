@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hencter.github.io/categories/</loc>
+<<<<<<< HEAD
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hencter.github.io/tags/error/</loc>
@@ -28,6 +29,33 @@
   </url><url>
     <loc>https://hencter.github.io/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+=======
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/tags/error/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/tags/linux/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/tags/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/posts/2020-04-07-%E4%B8%80%E6%AC%A1%E6%83%A8%E7%97%9B%E7%9A%84linux%E5%85%A8%E7%9B%98%E7%BB%8F%E5%8E%86/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/posts/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/categories/%E8%AD%A6%E6%83%95/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/categories/%E9%94%99%E8%AF%AF/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/</loc>
+    <lastmod>2020-04-07T20:26:58+08:00</lastmod>
+>>>>>>> 54503d0055f5f7ab7ed3c5476200c351f786cbcb
   </url><url>
     <loc>https://hencter.github.io/about/</loc>
   </url>
