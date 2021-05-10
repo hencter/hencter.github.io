@@ -17,5 +17,14 @@
       <description>这是一段 Gist 的测试</description>
     </item>
     
+    <item>
+      <title>Markdown 测试</title>
+      <link>https://hencter.github.io/posts/2021-05-07-markdown-test/</link>
+      <pubDate>Fri, 07 May 2021 18:33:30 +0800</pubDate>
+      
+      <guid>https://hencter.github.io/posts/2021-05-07-markdown-test/</guid>
+      <description>This is an tag This is an tag This is an tag This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Item 1 Item 2 Item 2a Item 2b Item 1 Item 2 Item 3 Item 3a Item 3b Format: As Kanye West said: We&amp;rsquo;re living the future so the present is our past. function</description>
+    </item>
+    
   </channel>
 </rss>
