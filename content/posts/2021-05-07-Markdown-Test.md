@@ -33,7 +33,7 @@ _You **can** combine them_
    1. Item 3a
    1. Item 3b
 
-![GitHub Logo](/img/avatar.jpg)
+<!-- ![GitHub Logo](/img/avatar.jpg) -->
 
 Format: ![Alt Text](#)
 
@@ -67,3 +67,6 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 Any word wrapped with two tildes (like `~~this~~`) will appear crossed out.
+
+- `one
+- two`

@@ -6,7 +6,9 @@ title = "亦幸's Blog"
 
 publishDir = "docs"
 
-copyright = "Copyright by 亦幸"
+copyright = "Copyright ©"
+
+editor = "code"
 
 [author]
   name = "亦幸"

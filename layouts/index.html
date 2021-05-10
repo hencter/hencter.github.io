@@ -1,5 +1,6 @@
 {{ define "main" }}
 <main>
+    
     <header>
         {{ with .Params.subtitle }}
             <span>{{.subtitle}}</span>
@@ -8,6 +9,6 @@
     {{/* 这里 Content 拉取的是 /content/_index.md 的内容 */}}
     {{ .Content }}
     {{/* 遍历 10 篇概要 */}}
-    {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} <br> {{ end }}
+    {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} <br /> {{ end }}
 </main>
 {{ end }}

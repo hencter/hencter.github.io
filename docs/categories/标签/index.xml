@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标签 on 亦幸&#39;s Blog</title>
+    <link>https://hencter.github.io/categories/%E6%A0%87%E7%AD%BE/</link>
+    <description>Recent content in 标签 on 亦幸&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright ©</copyright>
+    <lastBuildDate>Fri, 07 May 2021 22:58:03 +0800</lastBuildDate><atom:link href="https://hencter.github.io/categories/%E6%A0%87%E7%AD%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于 HTML 中的换行标签</title>
+      <link>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Fri, 07 May 2021 22:58:03 +0800</pubDate>
+      
+      <guid>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</guid>
+      <description>虽然在 HTML 中 &amp;lt;br&amp;gt; 和 &amp;lt;br /&amp;gt; 标签的效果都一样&amp;ndash;换行 根据 HTML &amp;lt;br&amp;gt; 标签 里面 HTML 与 XHTML 之间的差异 在 HTML 中，&amp;lt;br&amp;gt; 标签没有结束标签。 在 XHTML 中，&amp;</description>
+    </item>
+    
+  </channel>
+</rss>

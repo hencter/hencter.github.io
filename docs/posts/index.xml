@@ -6,15 +6,24 @@
     <description>Recent content in 文章 on 亦幸&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <copyright>Copyright by 亦幸</copyright>
-    <lastBuildDate>Fri, 07 May 2021 18:33:30 +0800</lastBuildDate><atom:link href="https://hencter.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright ©</copyright>
+    <lastBuildDate>Mon, 10 May 2021 14:56:09 +0800</lastBuildDate><atom:link href="https://hencter.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown 测试</title>
-      <link>https://hencter.github.io/posts/2021-05-07-markdown-test/</link>
-      <pubDate>Fri, 07 May 2021 18:33:30 +0800</pubDate>
+      <title>2021 05 10 Gist测试</title>
+      <link>https://hencter.github.io/posts/2021-05-10-gist%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Mon, 10 May 2021 14:56:09 +0800</pubDate>
       
-      <guid>https://hencter.github.io/posts/2021-05-07-markdown-test/</guid>
-      <description>This is an tag This is an tag This is an tag This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Item 1 Item 2 Item 2a Item 2b Item 1 Item 2 Item 3 Item 3a Item 3b Format: As Kanye West said: We&amp;rsquo;re living the future so the present is our past. function</description>
+      <guid>https://hencter.github.io/posts/2021-05-10-gist%E6%B5%8B%E8%AF%95/</guid>
+      <description>这是一段 Gist 的测试</description>
+    </item>
+    
+    <item>
+      <title>关于 HTML 中的换行标签</title>
+      <link>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Fri, 07 May 2021 22:58:03 +0800</pubDate>
+      
+      <guid>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</guid>
+      <description>虽然在 HTML 中 &amp;lt;br&amp;gt; 和 &amp;lt;br /&amp;gt; 标签的效果都一样&amp;ndash;换行 根据 HTML &amp;lt;br&amp;gt; 标签 里面 HTML 与 XHTML 之间的差异 在 HTML 中，&amp;lt;br&amp;gt; 标签没有结束标签。 在 XHTML 中，&amp;</description>
     </item>
     
     <item>

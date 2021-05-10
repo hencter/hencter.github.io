@@ -3,25 +3,34 @@
 
 
 <aside>
-    标题: {{ .Title }} <br>
-    日期: {{ .Date.Format "Jan 2, Mon" }} <br>
-    字数: {{ .WordCount }} <br>
+    标题: {{ .Title }} <br />
+    日期: {{ .Date.Format "Jan 2, Mon" }} <br />
+    字数: {{ .WordCount }} <br />
     作者: {{ .Site.Author.name }}
 </aside>
 
-<article class="markdown-body">
+<article>
     {{ .Content }}
 </article>
 
 {{/* 遍历标签 */}}
-Tags: {{ range (.GetTerms "tags") }}
-<a href="{{ .Permalink }}">{{ .LinkTitle }}</a> {{ end }}
+Tags:
+{{ range (.GetTerms "tags") }}
+<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+{{ end }}
 
-<br>
-
+<br />
 
 最后更新: {{ .Hugo.CommitHash }}
 
-{{/* 上一篇 */}} {{ with .PrevInSection }}
-<a class="previous" href="{{.Permalink}}">{{.Title}}</a> {{ end }} {{/* 下一篇 */}} {{ with .NextInSection }}
-<a class="next" href="{{.Permalink}}">{{.Title}}</a> {{ end }} {{ end }}
+{{/* 上一篇 */}}
+{{ with .PrevInSection }}
+<a class="previous" href="{{.Permalink}}">{{.Title}}</a>
+{{ end }}
+
+{{/* 下一篇 */}}
+{{ with .NextInSection }}
+<a class="next" href="{{.Permalink}}">{{.Title}}</a>
+{{ end }}
+
+{{ end }}

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>测试 on 亦幸&#39;s Blog</title>
-    <link>https://hencter.github.io/categories/%E6%B5%8B%E8%AF%95/</link>
-    <description>Recent content in 测试 on 亦幸&#39;s Blog</description>
+    <title>Gist on 亦幸&#39;s Blog</title>
+    <link>https://hencter.github.io/tags/gist/</link>
+    <description>Recent content in Gist on 亦幸&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright ©</copyright>
-    <lastBuildDate>Mon, 10 May 2021 14:56:09 +0800</lastBuildDate><atom:link href="https://hencter.github.io/categories/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 May 2021 14:56:09 +0800</lastBuildDate><atom:link href="https://hencter.github.io/tags/gist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021 05 10 Gist测试</title>
       <link>https://hencter.github.io/posts/2021-05-10-gist%E6%B5%8B%E8%AF%95/</link>
