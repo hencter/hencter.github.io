@@ -1,5 +1,5 @@
 html {
-    background-image: url("../img/background.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/hencter/hencter.github.io@main/static/img/background.jpg");
     background-size: cover;
     /* 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域 */
     background-attachment: fixed;
@@ -38,6 +38,14 @@ a:visited {
     text-align: center;
 }
 
+.avatar {
+    width: 10%;
+    float: right;
+    margin-top: -8%;
+    margin-right: 3%;
+    border-radius: 10%
+}
+
 .tags {
     border: 1px solid ghostwhite;
     border-radius: 5px;
@@ -70,11 +78,12 @@ a:visited {
     font-size: 16px;
 }
 
-/* .previous {
-    float: left;
-} */
+.previous {
+    padding-left: 20px;
+}
 
 .next {
+    padding-right: 20px;
     float: right;
 }
 
@@ -136,13 +145,11 @@ a:visited {
         padding: 2px;
         text-decoration: none;
     }
-
     .markdown {
         filter: invert(100%);
     }
     /* 再次反色不就回来了嘛 */
-    .markdown .highlight { 
+    .markdown .highlight {
         filter: invert(100%);
     }
-    
 }
