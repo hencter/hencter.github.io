@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>代码 on 亦幸&#39;s Blog</title>
+    <link>https://hencter.github.io/categories/%E4%BB%A3%E7%A0%81/</link>
+    <description>Recent content in 代码 on 亦幸&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright ©</copyright>
+    <lastBuildDate>Mon, 10 May 2021 18:55:37 +0800</lastBuildDate><atom:link href="https://hencter.github.io/categories/%E4%BB%A3%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jacscript 值、类型和运算符</title>
+      <link>https://hencter.github.io/posts/2021-05-10-javascript%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6/</link>
+      <pubDate>Mon, 10 May 2021 18:55:37 +0800</pubDate>
+      
+      <guid>https://hencter.github.io/posts/2021-05-10-javascript%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6/</guid>
+      <description>在 JavaScript 中，只有一个值不等于其自身，那就是NaN（Not a Number，非数值）。 NaN 用于表示非法运算的结果，正因如此，不同的非法运算结果也不会相</description>
+    </item>
+    
+  </channel>
+</rss>

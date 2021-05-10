@@ -8,23 +8,112 @@ html {
 }
 
 body {
-    background-color: rgba(240, 248, 255, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     max-width: 800px;
     margin: 0 auto;
-    
+    border-radius: 10px;
 }
 
 h1 {
     font-size: 2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(85, 88, 255)
+}
+
+a:visited {
+    color: #4594e9
+}
+
 #copyright {
     text-align: center;
 }
 
-@media (min-width: 600px) { /* 当宽度小于 600px 后使用下面的样式 */
+.tags {
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+    background: gainsboro;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.list-page {
+    padding: 10px;
+    list-style: none;
+}
+
+.list-title {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.homepage-content {
+    margin: 10px;
+}
+
+.homepage-content li {
+    padding: 10px;
+    list-style: none;
+}
+
+.time {
+    float: right;
+    font-size: 16px;
+}
+
+/* .previous {
+    float: left;
+} */
+
+.next {
+    float: right;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.home-page-title {
+    font-size: 17px;
+}
+
+.logo-title {
+    margin: 20px;
+}
+
+.nav a {
+    padding-left: 20px;
+}
+
+@media (min-width: 600px) {
+    /* 当宽度小于 600px 后使用下面的样式 */
     /* 这是最简单响应式布局 */
     h1 {
         font-size: 3rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: rgba(51, 51, 51, 0.7);
+    }
+    a:link {
+        color: #5bf
+    }
+    a:visited {
+        color: #e94560
+    }
+    .tags {
+        border: 1px solid rgb(150, 150, 150);
+        border-radius: 5px;
+        background: rgb(68, 68, 68);
+        padding: 2px;
+        text-decoration: none;
     }
 }

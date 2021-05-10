@@ -14,7 +14,7 @@
       <pubDate>Fri, 07 May 2021 22:58:03 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</guid>
-      <description>关于 HTML 中 &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; 的区别</description>
+      <description>虽然在 HTML 中 &amp;lt;br&amp;gt; 和 &amp;lt;br /&amp;gt; 标签的效果都一样&amp;ndash;换行 根据 HTML &amp;lt;br&amp;gt; 标签 里面 HTML 与 XHTML 之间的差异 在 HTML 中，&amp;lt;br&amp;gt; 标签没有结束标签。 在 XHTML 中，&amp;</description>
     </item>
     
   </channel>

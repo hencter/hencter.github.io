@@ -7,14 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright ©</copyright>
-    <lastBuildDate>Mon, 10 May 2021 14:56:09 +0800</lastBuildDate><atom:link href="https://hencter.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 May 2021 18:55:37 +0800</lastBuildDate><atom:link href="https://hencter.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jacscript 值、类型和运算符</title>
+      <link>https://hencter.github.io/posts/2021-05-10-javascript%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6/</link>
+      <pubDate>Mon, 10 May 2021 18:55:37 +0800</pubDate>
+      
+      <guid>https://hencter.github.io/posts/2021-05-10-javascript%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6/</guid>
+      <description>在 JavaScript 中，只有一个值不等于其自身，那就是NaN（Not a Number，非数值）。 NaN 用于表示非法运算的结果，正因如此，不同的非法运算结果也不会相</description>
+    </item>
+    
     <item>
       <title>2021 05 10 Gist测试</title>
       <link>https://hencter.github.io/posts/2021-05-10-gist%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 10 May 2021 14:56:09 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2021-05-10-gist%E6%B5%8B%E8%AF%95/</guid>
-      <description>这是一段 Gist 的测试</description>
+      <description>测试 gist 代码块的 shortcode</description>
     </item>
     
     <item>
@@ -23,7 +32,7 @@
       <pubDate>Fri, 07 May 2021 22:58:03 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</guid>
-      <description>关于 HTML 中 &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; 的区别</description>
+      <description>虽然在 HTML 中 &amp;lt;br&amp;gt; 和 &amp;lt;br /&amp;gt; 标签的效果都一样&amp;ndash;换行 根据 HTML &amp;lt;br&amp;gt; 标签 里面 HTML 与 XHTML 之间的差异 在 HTML 中，&amp;lt;br&amp;gt; 标签没有结束标签。 在 XHTML 中，&amp;</description>
     </item>
     
     <item>
@@ -32,7 +41,7 @@
       <pubDate>Fri, 07 May 2021 18:33:30 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2021-05-07-markdown-test/</guid>
-      <description>Markdown 测试文档</description>
+      <description>This is an tag This is an tag This is an tag This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Item 1 Item 2 Item 2a Item 2b Item 1 Item 2 Item 3 Item 3a Item 3b Format: As Kanye West said: We&amp;rsquo;re living the future so the present is our past. function</description>
     </item>
     
     <item>
@@ -41,7 +50,7 @@
       <pubDate>Tue, 07 Apr 2020 20:26:58 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2020-04-07-%E4%B8%80%E6%AC%A1%E6%83%A8%E7%97%9B%E7%9A%84linux%E5%85%A8%E7%9B%98%E7%BB%8F%E5%8E%86/</guid>
-      <description>一次数据全丢的经历</description>
+      <description>事情发生2020年4月6日： 一次惨痛的 Linux 装机记录 - 装机日期为：2020年4月4日 OMG！那天在和耗子聊天的过程中康到 Linux-qq 更新了，我靠直接莽上去</description>
     </item>
     
   </channel>
