@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hencter.github.io/posts/2021-05-10-gist%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2021-05-10T14:56:09+08:00</lastmod>
-  </url><url>
     <loc>https://hencter.github.io/categories/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/posts/2021-05-10-javascript%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/tags/javascript/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/categories/javascript-%E7%BC%96%E7%A8%8B%E7%B2%BE%E8%A7%A3/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/tags/note/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/tags/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/categories/%E4%BB%A3%E7%A0%81/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/posts/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/</loc>
+    <lastmod>2021-05-10T18:55:37+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/posts/2021-05-10-gist%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-05-10T14:56:09+08:00</lastmod>
   </url><url>
     <loc>https://hencter.github.io/tags/gist/</loc>
@@ -14,25 +41,19 @@
     <loc>https://hencter.github.io/tags/github/</loc>
     <lastmod>2021-05-10T14:56:09+08:00</lastmod>
   </url><url>
-    <loc>https://hencter.github.io/tags/</loc>
-    <lastmod>2021-05-10T14:56:09+08:00</lastmod>
-  </url><url>
     <loc>https://hencter.github.io/tags/test/</loc>
     <lastmod>2021-05-10T14:56:09+08:00</lastmod>
   </url><url>
     <loc>https://hencter.github.io/categories/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</loc>
     <lastmod>2021-05-10T14:56:09+08:00</lastmod>
   </url><url>
-    <loc>https://hencter.github.io/posts/</loc>
-    <lastmod>2021-05-10T14:56:09+08:00</lastmod>
-  </url><url>
     <loc>https://hencter.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-05-10T14:56:09+08:00</lastmod>
   </url><url>
-    <loc>https://hencter.github.io/</loc>
-    <lastmod>2021-05-10T14:56:09+08:00</lastmod>
-  </url><url>
     <loc>https://hencter.github.io/tags/html/</loc>
+    <lastmod>2021-05-07T22:58:03+08:00</lastmod>
+  </url><url>
+    <loc>https://hencter.github.io/tags/tags/</loc>
     <lastmod>2021-05-07T22:58:03+08:00</lastmod>
   </url><url>
     <loc>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</loc>
