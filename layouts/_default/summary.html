@@ -1,5 +1,12 @@
 {{/* 概要页面 */}}
-标题: <a href='{{ .Permalink }}'> {{ .Title }}</a> <br />
-日期: <time>{{ .Date.Format "Jan 2, Mon" }}<br /></time>
-字数: {{ .WordCount }} <br />
-概要: {{ .Summary }}
+
+<h2 class="home-page-title"><a href='{{ .Permalink }}'> {{ .Title }}</a><time class="time">{{ .Date.Format "Jan 2, Mon" }}</time>   </h2>
+
+{{ with .Params.tags }}
+{{ range . }}
+<a class="tags" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+{{ end }}
+{{ end }}
+
+
+<p>{{ .Summary }}</p>

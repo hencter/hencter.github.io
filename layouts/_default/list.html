@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="markdown-body">
     <header>
-        <h1>{{.Title}}</h1>
+        <h1 class="list-title">{{.Title}}</h1>
     </header>
     <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
     {{.Content}}
@@ -9,20 +9,22 @@
 
 <ul>
     {{/* 按照日期来遍历页面 */}}
-    {{ range .Pages.ByDate }}
-    <li>
+    {{ range .Paginator.Pages }}
+    <li class="list-page">
         {{/* 列表标题 对应列表下的 _index.html */}}
         <a href="{{ .Permalink }}">{{ .Title }}</a>
 
         {{ with .Params.tags }}
         {{ range . }}
-        <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+        <a class="tags" href="{{ " tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
         {{ end }}
         {{ end }}
-        
-        <time>{{ .Date.Format "Jan 2, Mon" }}</time>
+
+        <time class="time">{{ .Date.Format "Jan 2, Mon" }}</time>
 
     </li>
     {{ end }}
+    {{ partial "pagination.html" . }}
+
 </ul>
 {{ end }}

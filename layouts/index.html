@@ -1,14 +1,17 @@
 {{ define "main" }}
 <main>
-    
-    <header>
-        {{ with .Params.subtitle }}
-            <span>{{.subtitle}}</span>
-        {{ end }}
-    </header>
     {{/* 这里 Content 拉取的是 /content/_index.md 的内容 */}}
     {{ .Content }}
     {{/* 遍历 10 篇概要 */}}
-    {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} <br /> {{ end }}
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    {{ range $paginator.Pages }}
+    <div class="homepage-content">
+        <li class="list-page">
+            {{ .Render "summary" }}
+        </li>
+    </div>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+
 </main>
 {{ end }}

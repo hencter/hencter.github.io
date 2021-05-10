@@ -3,7 +3,8 @@
 
 
 <aside>
-    标题: {{ .Title }} <br />
+
+    <h2>{{ .Title }}</h2>
     日期: {{ .Date.Format "Jan 2, Mon" }} <br />
     字数: {{ .WordCount }} <br />
     作者: {{ .Site.Author.name }}
@@ -14,14 +15,15 @@
 </article>
 
 {{/* 遍历标签 */}}
-Tags:
+标签:
 {{ range (.GetTerms "tags") }}
 <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
 {{ end }}
 
 <br />
 
-最后更新: {{ .Hugo.CommitHash }}
+<p> 最后更新: {{ .Hugo.CommitHash }} </p>
+
 
 {{/* 上一篇 */}}
 {{ with .PrevInSection }}

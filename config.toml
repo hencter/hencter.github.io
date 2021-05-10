@@ -8,12 +8,10 @@ publishDir = "docs"
 
 copyright = "Copyright ©"
 
-editor = "code"
+paginate = "3"
 
 [author]
   name = "亦幸"
-  GitHubUser = "hencter"
-  Subtitle = "Hugo is Absurdly Fast!"
 
 [menu]
 
@@ -32,8 +30,15 @@ editor = "code"
     weight = 2
 
 [[menu.main]]
+    identifier = "webdev"
+    name = "NETDISC"
+    title = "Netdisc"
+    url = "http://hencter.ys168.com/"
+    weight = 3
+
+[[menu.main]]
     identifier = "about"
     name = "ABOUT"
     title = "about"
     url = "/about/"
-    weight = 3
+    weight = 4
