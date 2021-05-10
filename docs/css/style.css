@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: rgba(250, 238, 251, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     max-width: 800px;
     margin: 0 auto;
     border-radius: 10px;
@@ -112,4 +112,33 @@ a:visited {
     h1 {
         font-size: 3rem;
     }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: rgba(51, 51, 51, 0.7);
+    }
+    a:link {
+        color: #5bf
+    }
+    a:visited {
+        color: #e94560
+    }
+    .tags {
+        border: 1px solid rgb(150, 150, 150);
+        border-radius: 5px;
+        background: rgb(68, 68, 68);
+        padding: 2px;
+        text-decoration: none;
+    }
+
+    .markdown {
+        filter: invert(100%);
+    }
+    /* 再次反色不就回来了嘛 */
+    .markdown .highlight { 
+        filter: invert(100%);
+    }
+    
 }
