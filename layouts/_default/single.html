@@ -2,7 +2,7 @@
 
 
 
-<aside>
+<aside class="format">
 
     <h2>{{ .Title }}</h2>
     日期: {{ .Date.Format "Jan 2, Mon" }} <br />
@@ -10,7 +10,7 @@
     作者: {{ .Site.Author.name }}
 </aside>
 
-<article>
+<article  class="markdown">
     {{ .Content }}
 </article>
 
