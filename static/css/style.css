@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(207, 207, 207, 0.7);
     max-width: 800px;
     margin: 0 auto;
     border-radius: 10px;
@@ -27,7 +27,7 @@ a:link {
 }
 
 a:visited {
-    color: #4594e9
+    color: #4785c7
 }
 
 #copyright {
