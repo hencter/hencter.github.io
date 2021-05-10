@@ -31,7 +31,7 @@ paginate = "3"
 
 [[menu.main]]
     identifier = "webdev"
-    name = "NETDISC"
+    name = "网盘"
     title = "Netdisc"
     url = "http://hencter.ys168.com/"
     weight = 3
