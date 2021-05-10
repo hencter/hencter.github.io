@@ -3,26 +3,32 @@
 
 
 <aside class="format">
+    <h2 class="home-page-title"><a href='{{ .Permalink }}'> {{ .Title }}</a><time class="time">{{ .Date.Format "Jan 2, Mon" }}</time>   </h2>
 
-    <h2>{{ .Title }}</h2>
-    日期: {{ .Date.Format "Jan 2, Mon" }} <br />
-    字数: {{ .WordCount }} <br />
+    {{ with .Params.tags }}
+    {{ range . }}
+    <a style="padding-right: 20px;" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+    {{ end }}
+
+    <p></p>
+    
+    {{ .Date.Format "Jan 2, Mon" }} <br />
+    字数: {{ .WordCount }} 字 <br />
     作者: {{ .Site.Author.name }}
 </aside>
 
-<article  class="markdown">
+<article class="markdown">
     {{ .Content }}
 </article>
 
 {{/* 遍历标签 */}}
-标签:
-{{ range (.GetTerms "tags") }}
-<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-{{ end }}
+
+
 
 <br />
 
-<p> 最后更新: {{ .Hugo.CommitHash }} </p>
+<p style="padding-left: 20px;"> 最后更新: {{ .Hugo.CommitHash }} </p>
 
 
 {{/* 上一篇 */}}
