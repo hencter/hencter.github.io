@@ -23,7 +23,7 @@
       <pubDate>Fri, 07 May 2021 22:58:03 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2021-05-07-%E5%85%B3%E4%BA%8Ehtml%E4%B8%AD%E7%9A%84%E6%8D%A2%E8%A1%8C%E6%A0%87%E7%AD%BE/</guid>
-      <description>虽然在 HTML 中 &amp;lt;br&amp;gt; 和 &amp;lt;br /&amp;gt; 标签的效果都一样&amp;ndash;换行 根据 HTML &amp;lt;br&amp;gt; 标签 里面 HTML 与 XHTML 之间的差异 在 HTML 中，&amp;lt;br&amp;gt; 标签没有结束标签。 在 XHTML 中，&amp;</description>
+      <description>关于 HTML 中 &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; 的区别</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@
       <pubDate>Fri, 07 May 2021 18:33:30 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2021-05-07-markdown-test/</guid>
-      <description>This is an tag This is an tag This is an tag This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Item 1 Item 2 Item 2a Item 2b Item 1 Item 2 Item 3 Item 3a Item 3b Format: As Kanye West said: We&amp;rsquo;re living the future so the present is our past. function</description>
+      <description>Markdown 测试文档</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@
       <pubDate>Tue, 07 Apr 2020 20:26:58 +0800</pubDate>
       
       <guid>https://hencter.github.io/posts/2020-04-07-%E4%B8%80%E6%AC%A1%E6%83%A8%E7%97%9B%E7%9A%84linux%E5%85%A8%E7%9B%98%E7%BB%8F%E5%8E%86/</guid>
-      <description>事情发生2020年4月6日： 一次惨痛的 Linux 装机记录 - 装机日期为：2020年4月4日 OMG！那天在和耗子聊天的过程中康到 Linux-qq 更新了，我靠直接莽上去</description>
+      <description>一次数据全丢的经历</description>
     </item>
     
   </channel>
