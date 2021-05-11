@@ -1,4 +1,4 @@
-{{ define "main" }}
+9{{ define "main" }}
 <article class="markdown-body">
     <header>
         <h1 class="list-title">{{.Title}}</h1>
@@ -13,14 +13,15 @@
     <li class="list-page">
         {{/* 列表标题 对应列表下的 _index.html */}}
         <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <time class="time">{{ .Date.Format "Jan 2, Mon" }}</time>
 
+        <br />
         {{ with .Params.tags }}
         {{ range . }}
-        <a class="tags" href="{{ " tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+        <a class="tags" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
         {{ end }}
         {{ end }}
 
-        <time class="time">{{ .Date.Format "Jan 2, Mon" }}</time>
 
     </li>
     {{ end }}
