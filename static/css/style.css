@@ -14,6 +14,30 @@ body {
     border-radius: 10px;
 }
 
+/*  head.html=Start=========== */
+
+.logo {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.logo img {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.logo h1 {
+    float: right;
+    margin: 3px;
+}
+
+.nav a {
+    padding-left: 20px;
+}
+
+/* ===========end=========== */
+
 footer {
     padding: 20px 0;
 }
@@ -36,14 +60,6 @@ a:visited {
 
 #copyright {
     text-align: center;
-}
-
-.avatar {
-    width: 10%;
-    float: right;
-    margin-top: -8%;
-    margin-right: 3%;
-    border-radius: 10%
 }
 
 .tags {
@@ -97,10 +113,6 @@ a:visited {
 
 .logo-title {
     margin: 20px;
-}
-
-.nav a {
-    padding-left: 20px;
 }
 
 .format {
