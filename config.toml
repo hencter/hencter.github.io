@@ -1,6 +1,6 @@
 baseURL = "https://hencter.github.io/"
 languageCode = "zh-CN"
-# 为保证文章字数统计才正常
+# 为保证文章字数统计正确
 hasCJKLanguage = "true"
 title = "亦幸's Blog"
 
