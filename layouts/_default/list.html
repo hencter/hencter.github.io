@@ -15,7 +15,7 @@
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         <time class="time">{{ .Date.Format "Jan 2, Mon" }}</time>
 
-        <br />
+        <p></p>
         {{ with .Params.tags }}
         {{ range . }}
         <a class="tags" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
