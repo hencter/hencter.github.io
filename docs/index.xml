@@ -64,10 +64,10 @@
     
     <item>
       <title></title>
-      <link>https://hencter.github.io/about/answer/</link>
+      <link>https://hencter.github.io/about/answers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hencter.github.io/about/answer/</guid>
+      <guid>https://hencter.github.io/about/answers/</guid>
       <description>14-1 除个别结点外，其余结点只能有1个前驱结点，可有任意多个后继结点，这样的结构为( ) A、线性结构 B、树形结构 C、图形结构 D、拓扑结构 正确答案：</description>
     </item>
     
