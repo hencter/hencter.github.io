@@ -1,14 +1,4 @@
-html {
-    background-image: url("https://cdn.jsdelivr.net/gh/hencter/hencter.github.io@main/static/img/background.jpg");
-    background-size: cover;
-    /* 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域 */
-    background-attachment: fixed;
-    /* 当页面的其余部分滚动时，背景图像不会移动。 */
-    background-repeat: no-repeat;
-}
-
 body {
-    background: rgba(207, 207, 207, 0.7);
     max-width: 800px;
     margin: 0 auto;
     border-radius: 10px;
